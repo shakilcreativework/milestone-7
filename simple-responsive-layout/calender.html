@@ -11,15 +11,31 @@
             row-gap: 20px;
             column-gap: 10px;
         }
-        .date {
+        .date, .day {
             background-color: aquamarine;
-            border-radius: 50px;
+            border-radius: 10px;
             height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5em;
+        }
+        .day {
+            background-color: lightgray;
+            font-size: 1em;
         }
     </style>
 </head>
 <body>
+    <h2>My Personal Calender</h2>
     <div class="calender">
+        <div class="day">Sun</div>
+        <div class="day">Mon</div>
+        <div class="day">Tue</div>
+        <div class="day">Wed</div>
+        <div class="day">Thu</div>
+        <div class="day">Fri</div>
+        <div class="day">Sat</div>
         <div class="date">1</div>
         <div class="date">2</div>
         <div class="date">3</div>
